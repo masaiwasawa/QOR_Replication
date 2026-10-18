@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\begin{threeparttable}
+\caption{Sensitivity to reporting-year fixed effects}
+\label{tab:qonlyreg_year_fixed_effects}
+\small
+\begin{tabular}{cccccccc}
+\toprule
+Window & $|\mathcal G_h|$ & Councils & T / C & Estimate (SE) & $U=150$ & $U=175$ & $U=200$ \\
+\midrule
+$\pm 3$ & 77 & 32 & 43 / 34 & -2.434 (0.070) & [-26.89, 22.03] & [-33.14, 28.28] & [-39.39, 34.53] \\
+$\pm 4$ & 88 & 36 & 51 / 37 & -1.698 (0.067) & [-25.09, 22.05] & [-31.34, 28.30] & [-37.59, 34.55] \\
+$\pm 5$ & 129 & 42 & 74 / 55 & -3.361 (0.054) & [-25.14, 11.47] & [-31.39, 17.72] & [-37.64, 23.97] \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Notes: The treatment is a Labour seat share of at least 50 percent. Each model adds reporting-year indicators to the intercept and treatment indicator; 2017 is the omitted reporting year. The quantile reconstruction, fixed windows, assessment-count weights, and support assumptions match Table~\ref{tab:qonlyreg_main}. Parentheses contain qlm standard errors, and brackets report projections of the 95 percent simultaneous confidence region.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

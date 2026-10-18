@@ -1,0 +1,4 @@
+"grid","beta_hat","ci_point_lower","ci_point_upper","proj_confset_lower","proj_confset_upper","benchmark_beta","benchmark_in_point_ci","benchmark_in_proj_confset"
+"median",29.735416488952,NA,NA,NA,NA,28.4017797325693,NA,NA
+"quartiles",29.3486758568439,28.6378444585396,30.0595072551482,-104.663888922746,139.982256898967,28.4017797325693,FALSE,TRUE
+"rich",28.711902982894,28.0258317948369,29.3979741709511,-37.7045234119198,75.0717722842736,28.4017797325693,TRUE,TRUE

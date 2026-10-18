@@ -1,0 +1,24 @@
+\begin{table}[!h]
+\centering
+\begin{threeparttable}
+\caption{Leave-one-council-out sensitivity in the main window}
+\label{tab:qonlyreg_leave_one_council_out}
+\small
+\begin{tabular}{cccccc}
+\toprule
+Excluded council & Side & Council-years & Assessments & Estimate & Change \\
+\midrule
+None (baseline) & -- & 0 & 0 & -0.830 & 0.000 \\
+Bristol & treated & 5 & 22,290 & 0.107 & 0.936 \\
+Kirklees & both across years & 8 & 36,721 & -0.024 & 0.806 \\
+Croydon & control & 3 & 18,590 & -0.045 & 0.785 \\
+Walsall & control & 2 & 9,355 & -1.405 & -0.575 \\
+Nottinghamshire & control & 1 & 9,126 & -1.386 & -0.556 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Notes: The first row is the baseline $\pm4$ estimate. The remaining rows show the five councils producing the largest absolute change when all of that council's observations are removed. Change is relative to the baseline. Across all 36 exclusions, 35 estimates remain negative. The complete council-level results are supplied in \texttt{table\_leave\_one\_council\_out\_full.csv}.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

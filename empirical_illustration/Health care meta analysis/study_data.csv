@@ -1,0 +1,8 @@
+study_id,liu_table_iv_no,liu_reference,study_label,study_year,n_hai,n_control,format,mean_hai,sd_hai,q1_hai,median_hai,q3_hai,mean_control,sd_control,q1_control,median_control,q3_control,paired_difference_usd,paired_sd_usd,paired_se_usd,usd_to_cny,source_note
+li_2013,3,19,Li et al. 2017,2013,140,140,mean_sd,47657.47,45135.47,,,,18546.68,25098.66,,,,4695.29,7320.44,618.69,6.2,Liu Table IV p7; paired difference and uncertainty Li Table 5 p447 in 2015 USD
+li_2014,4,19,Li et al. 2017,2014,170,170,mean_sd,60411.09,110840.72,,,,18090.73,28236.58,,,,6825.86,18580.92,1425.09,6.2,Liu Table IV p7; paired difference and uncertainty Li Table 5 p447 in 2015 USD
+li_2015,5,19,Li et al. 2017,2015,172,172,mean_sd,59791.87,62369.55,,,,18062.32,19212.61,,,,6730.57,10125.80,772.08,6.2,Liu Table IV p7; paired difference and uncertainty Li Table 5 p447 in 2015 USD
+zhang_ref33,6,33,Zhang et al. 2016 ref33,,50,150,quartiles,,,8977.00,20253.80,34848.75,,,5683.25,9572.90,20722.00,,,,,Liu Table IV p7 only; primary paper not supplied; cross-arm covariance unavailable
+jiang_sun,7,20,Jiang and Sun 2018 as labelled by Liu,,2388,2388,quartiles,,,16412.75,33618.38,68427.10,,,7394.30,15004.93,40284.95,,,,,Quartiles Liu Table IV p7; uploaded Sun/Jiang Table 3 p799 confirms medians and IQR widths only; bibliographic mismatch
+zhang_ref22,10,22,Zhang et al. 2016 ref22,,50,50,mean_sd,42669.00,36845.00,,,,19541.00,14653.00,,,,,,,,Liu Table IV p7 only; primary paper not supplied; use SD squared over n with zero cross-arm covariance
+zhou_ref21,12,21,Zhou et al. as labelled by Liu,,157,157,quartiles,,,9300.10,26938.00,47844.40,,,4685.70,9908.50,24795.00,,,,,Liu Table IV p7 only; reference21 also assigned to different sample in Table II; citation unresolved

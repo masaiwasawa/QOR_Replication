@@ -1,0 +1,8 @@
+Simulation summary
+------------------
+Replications: 10000
+Cores: 39
+Elapsed time (seconds): 614.75
+Start time: 2026-10-16 10:20:11
+End time: 2026-10-16 10:30:26
+

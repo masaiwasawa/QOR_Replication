@@ -1,0 +1,8 @@
+"manuscript_location","artifact","purpose"
+"Main text","table_main_results.csv and .tex","Primary point estimates and simultaneous confidence regions"
+"Main text","rd_quantiles_and_reconstructed_mean_main_window_4pp.png and .pdf","All disclosed quantiles and the reconstructed mean"
+"Supplement","rd_quantiles_main_window_4pp.png and .pdf","Quantile-specific diagnostic panels"
+"Supplement","table_leave_one_council_out.csv and .tex","Council-level influence sensitivity"
+"Supplement","table_year_fixed_effects_sensitivity.csv and .tex","Reporting-year fixed-effects sensitivity"
+"Supplement","table_strict_majority_sensitivity.csv and .tex","Treatment-definition sensitivity"
+"Reproducibility supplement","table_quantile_decomposition.csv and .tex; table_leave_one_council_out_full.csv","Numerical audit and complete influence results"

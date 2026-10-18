@@ -1,0 +1,23 @@
+\begin{table}[!h]
+\centering
+\begin{threeparttable}
+\caption{Decomposition of the reconstructed-mean difference in the main window}
+\label{tab:qonlyreg_quantile_decomposition}
+\small
+\begin{tabular}{cccccc}
+\toprule
+Component & Weight & Control & Treated & Difference & Contribution \\
+\midrule
+Known lower endpoint Q(0) & 0.125 & 0.00 & 0.00 & 0.00 & 0.00 \\
+Q1 (25th percentile) & 0.250 & 20.26 & 17.29 & -2.97 & -0.74 \\
+Median (50th percentile) & 0.250 & 31.70 & 31.65 & -0.05 & -0.01 \\
+Q3 (75th percentile) & 0.375 & 43.55 & 43.35 & -0.20 & -0.07 \\
+Reconstructed mean & 1.000 & 29.32 & 28.49 & -0.83 & -0.83 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Notes: Control and treated columns are assessment-count-weighted side averages within the $\pm4$ percentage-point window. Difference is treated minus control. Contribution equals the reconstruction weight times the difference. The known lower endpoint contributes zero by construction.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

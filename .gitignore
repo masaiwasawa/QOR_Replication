@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# R and RStudio local files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local environment files
+.Renviron
+.env
+
+# Rendered copies of Markdown README files
+README.html

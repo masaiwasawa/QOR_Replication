@@ -1,0 +1,6 @@
+"component","reconstruction_weight","control_weighted_average_days","treated_weighted_average_days","treated_minus_control_days","contribution_to_mean_difference_days"
+"Known lower endpoint Q(0)",0.125,0,0,0,0
+"Q1 (25th percentile)",0.25,20.2616851978711,17.291669970436,-2.97001522743512,-0.742503806858781
+"Median (50th percentile)",0.25,31.6991950782526,31.6495021691605,-0.0496929090920801,-0.01242322727302
+"Q3 (75th percentile)",0.375,43.5459437740423,43.3463180906856,-0.199625683356629,-0.074859631258736
+"Reconstructed mean",1,29.3199489842968,28.4901623189062,-0.829786665390536,-0.829786665390536

@@ -1,0 +1,9 @@
+Partial identification simulation summary
+------------------------------------------
+Replications: 10000
+Gaussian draws: 10000
+Cores: 39
+Elapsed time (seconds): 1007.92
+Start time: 2026-10-16 08:34:59
+End time: 2026-10-16 08:51:47
+

@@ -1,0 +1,25 @@
+\begin{table}[!h]
+\centering
+\begin{threeparttable}
+\caption{Labour majority and assessment duration: fixed-window qonlyreg results}
+\label{tab:qonlyreg_main}
+%\small
+{
+\renewcommand{\arraystretch}{1.8}
+\begin{tabular}{cccccccc}
+\toprule
+$h$ & $|\mathcal G_h|$ & Co. & T / C & Est. (SE) & $U=150$ & $U=175$ & $U=200$ \\
+\midrule
+$\pm 3$ & 77 & 32 & 43 / 34 & -1.638 (0.065) & [-23.62, 17.38] & [-29.87, 23.63] & [-36.12, 29.88] \\
+$\pm 4$ & 88 & 36 & 51 / 37 & -0.830 (0.061) & [-22.12, 17.39] & [-28.37, 23.64] & [-34.62, 29.89] \\
+$\pm 5$ & 129 & 42 & 74 / 55 & -2.045 (0.050) & [-22.17, 5.03] & [-28.42, 11.28] & [-34.67, 17.53] \\
+\bottomrule
+\end{tabular}
+}
+\begin{tablenotes}[flushleft]
+%\footnotesize
+\setstretch{2}
+\item Notes: $h$ is the window half-width in percentage points; $|\mathcal G_h|$ and Co.\ are the numbers of council-year groups and councils; T/C gives treated/control group counts. Est.\ (SE) reports the Labour-majority coefficient (standard error). Brackets give projections of the 95\% simultaneous confidence region under $Q_g(0)=0$ and upper support bound $U$ (days). The main specification uses $h=4$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

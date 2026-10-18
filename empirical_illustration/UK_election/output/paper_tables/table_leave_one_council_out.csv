@@ -1,0 +1,7 @@
+"excluded_council","threshold_side","council_years_removed","assessments_removed","leave_one_council_out_estimate_days","change_from_baseline_days"
+"None (baseline)","--",0,0,-0.829786665390536,0
+"Bristol","treated",5,22290,0.106659820702053,0.936446486092589
+"Kirklees","both across years",8,36721,-0.0240156375161718,0.805771027874364
+"Croydon","control",3,18590,-0.0445540652830303,0.785232600107506
+"Walsall","control",2,9355,-1.40509322471622,-0.575306559325686
+"Nottinghamshire","control",1,9126,-1.38588803500783,-0.556101369617299
