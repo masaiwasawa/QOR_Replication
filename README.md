@@ -87,10 +87,21 @@ The number of available processor cores affects runtime but should not affect th
 
 ## Citation
 
-Until a final journal citation is available, please cite the paper as:
+Until a final journal citation is available, please cite the arXiv preprint as:
 
-> Iwasawa, Masamune, and Hayato Nakanishi. 2026. “Quantile-Only Regression: Inference and Partial Identification under Quantile Disclosure.” Manuscript.
+> Iwasawa, Masamune, and Hayato Nakanishi. 2026. “Quantile-Only Regression: Inference and Partial Identification under Quantile Disclosure.” *arXiv preprint* [arXiv:2610.27224](https://arxiv.org/abs/2610.27224).
 
+BibTeX:
+
+```bibtex
+@article{iwasawa2026quantile,
+  title   = {Quantile-Only Regression: Inference and Partial Identification under Quantile Disclosure},
+  author  = {Iwasawa, Masamune and Nakanishi, Hayato},
+  journal = {arXiv preprint arXiv:2610.27224},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2610.27224}
+}
+```
 
 ## Authors
 
