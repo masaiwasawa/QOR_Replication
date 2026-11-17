@@ -16,7 +16,8 @@ QOR_Replication/
 │   ├── 01_main_point_estimation.R
 │   ├── 02_main_partial_identification.R
 │   ├── 03_supplementD4_compact_support.R
-│   └── 04_supplementD5_laplace.R
+│   ├── 04_supplementD5_laplace.R
+│   └── 05_supplementD4_laplace_partial_identification.R
 └── applications/
     ├── README.md
     ├── NAEP_data/
@@ -58,8 +59,8 @@ The expected package version is `0.1.0`, and the recorded SHA should begin with 
 
 ### Simulations
 
-Follow the instructions in simulation/00_README.md. 
-The four simulation scripts are mutually independent and may be run in any order. 
+Follow the instructions in [simulation/README.md](simulation/README.md).
+The five simulation scripts are mutually independent and may be run in any order. 
 Because they are computationally intensive and use parallel workers, running them one at a time is recommended.
 
 ### Empirical applications

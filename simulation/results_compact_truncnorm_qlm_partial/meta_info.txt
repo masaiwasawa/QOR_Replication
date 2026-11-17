@@ -1,0 +1,9 @@
+Partial identification simulation summary (truncated-normal errors, a = -2, b = 3)
+------------------------------------------
+Replications: 10000
+Gaussian draws: 10000
+Cores: 15
+Elapsed time (seconds): 1109.90
+Start time: 2026-11-17 06:46:29
+End time: 2026-11-17 07:04:59
+

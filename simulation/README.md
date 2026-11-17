@@ -4,7 +4,7 @@ This directory contains the Monte Carlo simulation code for the paper
 
 > **Quantile-Only Regression: Inference and Partial Identification under Quantile Disclosure**
 
-The four scripts reproduce the simulation results reported in Section 5 and Supplemental Material D. They are mutually independent and may be run in any order.
+The five scripts reproduce the simulation results reported in Section 5 and Supplemental Material D. They are mutually independent and may be run in any order.
 
 ## Directory contents
 
@@ -14,7 +14,8 @@ simulation/
 ├── 01_main_point_estimation.R
 ├── 02_main_partial_identification.R
 ├── 03_supplementD4_compact_support.R
-└── 04_supplementD5_laplace.R
+├── 04_supplementD5_laplace.R
+└── 05_supplementD4_laplace_partial_identification.R
 ```
 
 Each script creates its own output directory when run.
@@ -63,18 +64,21 @@ Results are written to `results_smooth_qlm/`.
 
 Reproduces the partial-identification simulation in Section 5.2 and
 the corresponding results in Supplemental Material D.
+The uniform-error design yields consistent finite-difference covariance
+estimates even with fixed `K`.
 
 Main outputs:
 - Table 1
 - Figure D.1
-- Tables D.4--D.5
-- Figures D.8--D.9
+- Tables D.5--D.6
+- Figures D.9--D.10
 
 Results are written to `results_partial_qlm/`.
 
 ### 03_supplementD4_compact_support.R
 
-Reproduces the compact-support simulation reported in Supplemental Material D.4.
+Reproduces the point-estimation simulation under asymmetric truncated-normal
+errors reported in Supplemental Material D-4.1.
 
 Main outputs:
 - Table D.2
@@ -84,13 +88,29 @@ Results are written to `results_compact_truncnorm_qlm/`.
 
 ### 04_supplementD5_laplace.R
 
-Reproduces the Laplace-error simulation reported in Supplemental Material D.5.
+Reproduces the Laplace-error simulation reported in Supplemental Material D-5.
 
 Main outputs:
-- Table D.3
-- Figure D.7
+- Table D.4
+- Figure D.8
 
 Results are written to `results_nonsmooth/`.
+
+### 05_supplementD4_laplace_partial_identification.R
+
+Reproduces the partial-identification simulation under standardized,
+asymmetric truncated-normal errors reported in Supplemental Material D-4.2.
+The data-generating process is the same as in
+`03_supplementD4_compact_support.R`.
+This experiment examines the same finite-difference procedure when its
+covariance estimator is not consistent for fixed `K`.
+
+Main outputs:
+
+- Table D.3: `table_region_coverage_all_grids.tex`
+- Figure D.7: `plot_length_beta1.png`
+
+Results are written to `results_compact_truncnorm_qlm_partial/`.
 
 ## Running the simulations
 
@@ -101,6 +121,7 @@ source("01_main_point_estimation.R")
 source("02_main_partial_identification.R")
 source("03_supplementD4_compact_support.R")
 source("04_supplementD5_laplace.R")
+source("05_supplementD4_laplace_partial_identification.R")
 ```
 
 Because the simulations are computationally intensive and use parallel workers, running them one at a time is recommended.
@@ -121,7 +142,7 @@ or, when only the summarized results are needed:
 summary_tbl <- readRDS("results_smooth_qlm/summary_tbl.rds")
 ```
 
-Equivalent paths apply to the other three output directories. The archived summary files are the quickest route for checking the manuscript tables and figures.
+Equivalent paths apply to the other four output directories. The archived summary files are the quickest route for checking the manuscript tables and figures.
 
 ## Reproducibility notes
 

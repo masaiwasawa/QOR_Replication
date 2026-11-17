@@ -1,0 +1,32 @@
+\begin{table}[!htbp]
+\centering
+\begin{threeparttable}
+\caption{Coverage of the simultaneous confidence region under truncated-normal errors.}
+\label{tab:coverage_region_compact}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+\(N\) & \(K=3\) & \(K=5\) & \(K=7\) & \(K=10\) & \(K=15\) & \(K=20\) & \(K=50\) \\
+\midrule
+\multicolumn{8}{l}{Evenly spaced grid} \\
+\(1{,}000\) & 0.9998 & 0.9970 & 0.9911 & 0.9809 & 0.9700 & 0.9655 & 0.9550 \\
+\(5{,}000\) & 0.9995 & 0.9962 & 0.9915 & 0.9849 & 0.9749 & 0.9694 & 0.9558 \\
+\(10{,}000\) & 0.9997 & 0.9974 & 0.9920 & 0.9856 & 0.9759 & 0.9704 & 0.9552 \\
+\addlinespace
+\multicolumn{8}{l}{Mildly right-tail-coarse grid} \\
+\(1{,}000\) & 0.9995 & 0.9974 & 0.9941 & 0.9875 & 0.9772 & 0.9684 & 0.9508 \\
+\(5{,}000\) & 0.9997 & 0.9978 & 0.9944 & 0.9892 & 0.9810 & 0.9746 & 0.9582 \\
+\(10{,}000\) & 0.9998 & 0.9983 & 0.9952 & 0.9901 & 0.9818 & 0.9771 & 0.9591 \\
+\addlinespace
+\multicolumn{8}{l}{Severely right-tail-coarse grid} \\
+\(1{,}000\) & 0.9993 & 0.9990 & 0.9973 & 0.9962 & 0.9915 & 0.9860 & 0.9624 \\
+\(5{,}000\) & 0.9998 & 0.9996 & 0.9991 & 0.9973 & 0.9931 & 0.9888 & 0.9701 \\
+\(10{,}000\) & 0.9999 & 0.9998 & 0.9994 & 0.9979 & 0.9948 & 0.9896 & 0.9715 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Notes: Entries report the empirical probability that the nominal 95\% simultaneous confidence region contains the entire true identified set, based on \(10{,}000\) Monte Carlo replications.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

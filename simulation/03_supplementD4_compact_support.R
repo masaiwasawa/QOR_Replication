@@ -54,11 +54,8 @@ generate_data <- function(N, G = 10, beta0 = 1, beta1 = 2,
     trunc_mean^2
   
   trunc_sd <- sqrt(trunc_var)
-  
-  z_trunc <- qnorm(
-    prob_a + runif(N) * normalizing_constant
-  )
-  
+
+  z_trunc <- qnorm(prob_a + runif(N) * normalizing_constant)
   epsilon <- (z_trunc - trunc_mean) / trunc_sd
   
   sigma_g <- exp(0.5 * Xg)
